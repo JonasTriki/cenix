@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+body, html {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+canvas {
+    display: block;
+}
+
+#container {
+    width: 100%;
+    height: calc(100% - 214px);
+}
+
+.block {
+    width: 220px;
+    height: 220px;
+}
+
+.center {
+    position: absolute;
+    top: calc(50% - 110px);
+    left: calc(50% - 110px);
+}
+
+#failed {
+    font-size: 5em;
+    display: none;
+}
